@@ -2,6 +2,6 @@
 
 A collection of my CTF challenge writeups
 
-## Contents
+## Contents
 
-[TFC CTF 2023 / BABY DUCKY NOTES: REVENGE / README.md](TFC CTF 2023/BABY DUCKY NOTES REVENGE/)
+1. [BABY DUCKY NOTES: REVENGE](https://github.com/M-Davies/CTF-Writeups/tree/master/TFC%20CTF%202023/BABY%20DUCKY%20NOTES%20REVENGE)
