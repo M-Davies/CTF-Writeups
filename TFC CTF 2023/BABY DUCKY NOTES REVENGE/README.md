@@ -5,7 +5,7 @@ So it's been a while since I've spun up ye olde pentesting wheels but one warm, 
 https://ctf.thefewchosen.com/
 ![Picture of challenge page](images/challenge.png)
 
-## Reconnisance
+# Reconnisance
 
 The challenge was a whitebox (code included) challenge, with the flag stored as an environment variable inside the host container of the application:
 
@@ -100,7 +100,7 @@ def db_init():
     con.commit()
 ```
 
-## Abject Failures
+# Abject Failures
 
 Many plans were tried and failed such as:
 
@@ -110,7 +110,7 @@ Many plans were tried and failed such as:
 
 Which left XSS!
 
-## Reporting naughty people
+# Reporting naughty people
 
 There was a `bot.py` file in the codebase that was executed whenever a user reported a post, presumably to simulate the process of the admin user viewing the suspected bad apple post:
 
@@ -161,7 +161,7 @@ def bot(username):
 
 And ooo, it logs itself in as admin. That could be useful to know for later.
 
-## Mmmm hot cross ~~buns~~ site scripting
+# Mmmm hot cross ~~buns~~ site scripting
 
 So with this knowledge in mind, lets create a note and test for basic XSS:
 
@@ -171,7 +171,7 @@ So with this knowledge in mind, lets create a note and test for basic XSS:
 
 And yes, looks like there isn't any sanitisation on the content field.
 
-## The attack
+# The attack
 
 So we could try stealing the admin's cookie?
 
@@ -351,6 +351,6 @@ Accept-Encoding: gzip, deflate, br
 
 And there we go, we got the flag!
 
-## Flag
+# Flag
 
 `TFCCTF{Ev3ry_duCk_kn0w5_xSs!}`
