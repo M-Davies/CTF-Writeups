@@ -244,7 +244,7 @@ Then we report the posts:
 
 ![Posts reported](images/report.png)
 
-Wait a little bit anndddddd....
+Wait a little bit in Burp Collaborator anndddddd....
 
 ```
 POST /convertfirst HTTP/1.1
