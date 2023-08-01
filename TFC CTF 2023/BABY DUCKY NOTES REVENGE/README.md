@@ -349,8 +349,4 @@ Accept-Encoding: gzip, deflate, br
 </html>
 ```
 
-And there we go, we got the flag!
-
-# Flag
-
-`TFCCTF{Ev3ry_duCk_kn0w5_xSs!}`
+And there we go, we got the flag = `TFCCTF{Ev3ry_duCk_kn0w5_xSs!}`
